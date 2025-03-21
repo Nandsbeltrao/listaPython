@@ -6,10 +6,11 @@ def numerosPares(list_numeros):
     for numero in list_numeros:
         if numero % 2 == 0:
             pares.append(numero)
+       
+    return sum(pares)
 
-    print("A soma dos números pares são:", sum(pares))
-    
-numerosPares(list_numeros)
+resultado = numerosPares(list_numeros)
+print(f"A soma dos números pares são: {resultado}")
 
     
 
