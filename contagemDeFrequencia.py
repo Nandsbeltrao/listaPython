@@ -12,9 +12,9 @@ def frequencia(lista):
             
     return dicionario
 
-dicionario = ['Java', 'Java', 'Ruby', 'Javascript', 'Ruby']
+lista = ['Java', 'Java', 'Ruby', 'Javascript', 'Ruby']
 
-print(frequencia(dicionario))
+print(frequencia(lista))
         
     
     
